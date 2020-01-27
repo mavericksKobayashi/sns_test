@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@import 'mixin';
+
+#view_id {
+	display:none;
+}
+
+.my_user_id {
+	display:none;
+}
+
+.cont .tab div {
+	cursor: default!important;
+}
+
+.cont .tab a {
+	color: #898989;
+	@include mediaPC{
+		&:hover{
+		color: $black;
+		}
+	}
+}
+
+.cont .follow_btn:hover {
+	@include mediaPC{
+		opacity: 0.7;
+	}
+}
+
+.user_follow .user a {
+	@include mediaPC{
+		&:hover{
+			color: $bg_orange;
+		}
+	}
+}
+
+

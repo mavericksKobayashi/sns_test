@@ -1,0 +1,22 @@
+#home {
+  /* 751 */ }
+  @media all and (min-width: 751px) {
+    #home {
+      background: #F8F8F8; } }
+
+.home_tab {
+  background: #EFEFEF; }
+  .home_tab .inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-x: scroll; }
+  .home_tab ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 120%; }
+    .home_tab ul li a {
+      display: block;
+      padding: 10px;
+      font-size: 13px;
+      color: #000; }

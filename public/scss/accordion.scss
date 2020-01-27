@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@import 'mixin';
+
+
+@include mediaSP{
+  #accordion.contain.category{
+    background: $white;
+    padding-bottom: 30px;
+    .ttl{
+      padding-bottom: 15px;
+    }
+    .accordion_ttl{
+      background: #EDEDED;
+      padding: 14px 12px;
+      transition-delay: 0ms !important;
+      position: relative;
+      font-size: 12px;
+      &::before{
+        content: '';
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        width: 8px;
+        height: 8px;
+        border-bottom: 1px solid #575757;
+        border-right: 1px solid #575757;
+        transform: rotate(45deg);
+      }
+      &.open{
+        background: $bg_orange;
+        color: $white;
+        &::before{
+          display: none;
+        }
+      }
+    }
+    ul{
+      display: none;
+      padding: 0;
+      margin-bottom: 30px;
+    }
+    li{
+      padding: 0 12px;
+      border-bottom: 1px solid #D9D9D9;
+      width: 100%;
+      a{
+        padding: 12px 0;
+        width: 100%;
+      }
+    }
+  }
+}

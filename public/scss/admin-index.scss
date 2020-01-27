@@ -1,0 +1,110 @@
+@charset "utf-8";
+@import 'mixin';
+
+// admin_summary
+
+.admin_summary {
+  padding: 40px 0;
+  background: #EFEFEF;
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    @include inner;
+  }
+}
+
+.admin_summary_box_wrap {
+  display: flex;
+  align-items: center;
+}
+.admin_summary_box {
+  &01 {
+    margin-right: 50px;
+    padding-right: 50px;
+    border-right: 1px solid #000;
+  }
+  h2 {
+    margin-bottom: 20px;
+    .admin_summary_ttl {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .admin_summary_num {
+      padding: 0 0 0 15px;
+      font-size: 32px;
+      font-weight: bold;
+      color: #F2784A;
+    }
+    .admin_summary_how {
+      font-size: 20px;
+    }
+  }
+  ul {
+    li {
+      display: flex;
+      &:first-child {
+        margin-bottom: 20px;
+      }
+      span {
+        display: block;
+      }
+      .admin_summary_sub {
+        width: 150px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .admin_summary_sub_num {
+        display: flex;
+        align-items: baseline;
+        font-size: 19px;
+        font-weight: bold;
+        span {
+          display: block;
+          padding-left: 3px;
+          font-size: 14px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}
+
+.admin_notice {
+  div {
+    width: 300px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    a {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -6px;
+        left: -6px;
+        width: 13px;
+        height: 13px;
+        border: 2px solid #fff;
+        background: #F2784A;
+        border-radius: 50%;
+        box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+      }
+    }
+  }
+  .admin_notice_contact {
+    background: #67C1C1;
+    margin-bottom: 20px;
+    a {
+      color: #fff;
+    }
+  }
+  .admin_notice_report {
+    background: #D9D9D9;
+    a {
+      color: #000;
+    }
+  }
+}

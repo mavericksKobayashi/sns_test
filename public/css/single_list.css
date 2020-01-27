@@ -1,0 +1,83 @@
+#clip {
+  /* 751 */ }
+  @media all and (min-width: 751px) {
+    #clip {
+      background: #F8F8F8; } }
+
+.single_list {
+  background: #EFEFEF; }
+  .single_list .clip_tab {
+    margin: 30px 0; }
+    .single_list .clip_tab .inner {
+      max-width: 1000px;
+      margin: 0 auto;
+      max-width: 1000px;
+      margin: 0 auto;
+      width: calc( 100% - 30px); }
+    .single_list .clip_tab ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .single_list .clip_tab ul li {
+        margin-right: 20px; }
+        .single_list .clip_tab ul li a {
+          font-size: 18px;
+          font-weight: bold;
+          color: #A2A2A2;
+          text-decoration: none; }
+        .single_list .clip_tab ul li.active a {
+          color: #000; }
+  @media all and (max-width: 750px) {
+    .single_list .other_content {
+      margin-top: 40px; } }
+  .single_list .other_content ul li {
+    margin-bottom: 25px; }
+    .single_list .other_content ul li a {
+      display: inline-block;
+      padding-top: 5px;
+      min-height: 60px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      text-decoration: none;
+      color: #000; }
+    .single_list .other_content ul li .clip_img {
+      width: 60px;
+      margin-right: 12px; }
+    .single_list .other_content ul li .clip_place {
+      font-size: 13px;
+      font-weight: bold; }
+    .single_list .other_content ul li .clip_country {
+      display: block;
+      margin-top: 5px;
+      font-size: 10px;
+      color: #A2A2A2; }
+    .single_list .other_content ul li .clip_hash {
+      margin-top: 10px;
+      font-size: 10px;
+      color: #2183D6; }
+  .single_list .other_content li {
+    position: relative;
+    padding-left: 70px;
+    min-height: 60px; }
+  .single_list .other_content .clip_img {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+    pointer-events: all;
+    overflow: hidden; }
+    .single_list .other_content .clip_img img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0; }

@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+@import 'mixin';
+
+#about{
+  .content{
+    padding-bottom: 30px;
+  }
+  .mv{
+    position: relative;
+    img{
+      height: 378px;
+    }
+    .mv_text{
+      position: absolute;
+      width: auto;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: flex-end;
+      .ttl{
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 1.15;
+        color: $white;
+        padding: 0 0 90px 12px;
+        span{
+          font-size: 52px;
+        }
+        span:first-child{
+          font-size: 32px;
+          font-family: 'Porter';
+          font-weight: 500;
+          padding-bottom: 5px;
+          display:inline-block;
+        }
+        span:nth-child(2){
+          font-size: 20px;
+          font-family: 'Porter';
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .about_box{
+    ul{
+      @include innerSP;
+      box-shadow: 0 0 18px rgba(34,34,34,0.16);
+      @include mediaSP{
+        margin: -60px auto 0;
+      }
+      @include mediaPC{
+        margin: 0 auto;
+      }
+    }
+    li{
+      font-size: 13px;
+      font-weight: bold;
+      padding: 20px 0 20px 47px;
+      border-top: 1px solid #D9D9D9;
+      position: relative;
+      background: $white;
+      z-index: 1;
+      &:first-child{
+        border-top: 4px solid #7CD09F;
+      }
+      &::before{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 17px;
+        top: 23px;
+        width: 18.67px;
+        height: 14px;
+        background: url(../img/check-duotone.svg) no-repeat;
+        background-size: 100%;
+      }
+    }
+  }
+  .step{
+    padding-top: 107px;
+    position: relative;
+    &::before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 27.5px;
+      left: 50%;
+      transform: translate(-50%,0);
+      width: 16.03px;
+      height: 59.65px;
+      background: url(../img/arrow_about.png) no-repeat;
+      background-size: 100%;
+    }
+    &::after{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 42.8px;
+      right: 0;
+      width: 164.03px;
+      height: 255.34px;
+      background: url(../img/step_character.png) no-repeat;
+      background-size: 100%;
+    }
+    .inner{
+      @include innerSP;
+    }
+    .top{
+      background: $bg_orange;
+      margin-bottom: 64px;
+      .ttl{
+        font-size: 26px;
+        font-weight: bold;
+        color: $white;
+        padding: 26px 0;
+        span:first-child{
+          font-size: 42px;
+          font-family: 'Porter';
+          display: inline-block;
+          padding-bottom: 11px;
+          font-weight: 500;
+        }
+        span:nth-child(2){
+          font-family: 'Porter';
+          font-weight: 500;
+        }
+        span:nth-child(4){
+          font-size: 32px;
+        }
+      }
+    }
+    .step_box{
+      padding-bottom: 40px;
+    }
+    .step_num{
+      color: $bd_orange;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    }
+    .step_ttl{
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 0 25px;
+    }
+    .step_txt{
+      font-size: 13px;
+      line-height: 1.846;
+    }
+    .img_area_1{
+      margin-top: 20px;
+    }
+    .img_area_2{
+      margin-top: 30px;
+    }
+    .img_area_3{
+      margin-top: 12px;
+    }
+    .new_btn{
+      text-align: center;
+      a{
+        width: 245px;
+        margin: 10px auto 30px;
+        padding: 14px 0;
+        background: $bd_orange;
+        border-radius: 46px;
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        color: $white;
+        @include mediaSP{
+          box-shadow: 0 3px 15px rgba(0,0,0,0.15);
+        }
+      }
+    }
+    .attention{
+      color: #A2A2A2;
+      font-size: 12px;
+      line-height: 2;
+    }
+  }
+  @include mediaPC{
+    background: #F8F8F8;
+    .mv img{
+      height: 358px;
+    }
+    .mv .mv_text .ttl{
+      padding-bottom: 65px;
+    }
+    .mv .mv_text .ttl span{
+      font-size: 80px;
+      &:first-child{
+        font-size: 49px;
+      }
+      &:nth-child(2){
+        font-size: 31px;
+      }
+    }
+    .content{
+      padding: 60px 0 80px;
+      display: flex;
+      justify-content: space-between;
+      @include inner;
+    }
+    .main{
+      width: 71%;
+    }
+    .step{
+      &::after{
+        right: 45px;
+      }
+      .top{
+       border-radius: 4px;
+       .ttl{
+         padding-left: 30px;
+       }
+     }
+     .step_ttl,.step_num{
+       font-size: 20px;
+     }
+     .step_txt{
+       font-size: 14px;
+     }
+     .inner{
+        width: 100%;
+      }
+      .attention{
+        text-align: center;
+      }
+      .step_box{
+       padding-bottom: 50px;
+       }
+    }
+    .about_box ul{
+      margin-top: 0;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 1001px){
+    .mv .mv_text{
+      left: calc( (100% - 1000px) / 2);
+      padding-left: 0;
+    }
+  }
+}

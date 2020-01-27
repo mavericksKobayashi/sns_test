@@ -1,0 +1,98 @@
+@charset "UTF-8";
+.admin_useredit .cont form {
+  max-width: 500px;
+  padding: 30px 24px 50px;
+  border-top: 1px solid #D9D9D9; }
+
+.admin_useredit .cont .g_file_mask img {
+  max-width: 140px; }
+
+.public_btn_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .public_btn_area p {
+    padding-right: 10px;
+    font-size: 12px; }
+
+.user_icon {
+  position: relative;
+  width: 140px; }
+  .user_icon:after {
+    content: "";
+    width: 140px;
+    height: 140px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%; }
+  .user_icon:before {
+    content: "編集";
+    display: block;
+    position: absolute;
+    top: 44%;
+    left: 42%;
+    margin: auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    z-index: 500; }
+
+.to_freeze_account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .to_freeze_account span {
+    margin-right: 15px;
+    font-size: 13px;
+    font-weight: bold; }
+
+#admin .public_btn input {
+  display: none; }
+
+.public_btn label {
+  display: block;
+  width: 50px;
+  height: 25px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  border-radius: 100px;
+  position: relative;
+  border: 2px solid #F2784A;
+  cursor: pointer;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease; }
+
+.public_btn input[type=checkbox]:checked + label {
+  background: #F2784A; }
+
+.public_btn label:before {
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  content: '';
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background: #F2784A;
+  left: 2px;
+  top: 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: black;
+  border-radius: 100px; }
+
+.public_btn input[type=checkbox]:checked + label:before {
+  left: 25px;
+  background: #fff; }

@@ -1,0 +1,106 @@
+#my_page {
+  background: #EFEFEF; }
+
+.post_content {
+  background: #EFEFEF; }
+
+.mypage_wrap {
+  width: 100%;
+  max-width: 710px; }
+  .mypage_wrap .mypage_profile_area {
+    padding-top: 20px;
+    /* 751 */ }
+    @media all and (max-width: 750px) {
+      .mypage_wrap .mypage_profile_area {
+        width: calc( 100% - 24px);
+        margin: 0 auto; } }
+    @media all and (min-width: 751px) {
+      .mypage_wrap .mypage_profile_area {
+        padding: 0; } }
+  .mypage_wrap .mypage_profile_name {
+    font-size: 18px;
+    font-weight: bold; }
+  .mypage_wrap .mypage_profile,
+  .mypage_wrap #post_list {
+    max-width: 100%;
+    width: 100%; }
+  .mypage_wrap .mypage_profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .mypage_wrap .mypage_profile .mypage_profile_img {
+      width: 80px;
+      margin-bottom: 30px;
+      border-radius: 50px; }
+    .mypage_wrap .mypage_profile .mypage_profile_status {
+      margin: 30px 0 0 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      width: 72%;
+      max-width: 251px; }
+      .mypage_wrap .mypage_profile .mypage_profile_status p {
+        margin-right: 26px; }
+        @media screen and (max-width: 350px) {
+          .mypage_wrap .mypage_profile .mypage_profile_status p {
+            margin-right: 10px; } }
+      .mypage_wrap .mypage_profile .mypage_profile_status a {
+        color: #000;
+        display: block; }
+      .mypage_wrap .mypage_profile .mypage_profile_status span {
+        display: block;
+        padding-bottom: 5px; }
+        .mypage_wrap .mypage_profile .mypage_profile_status span.mypage_profile_status_num {
+          font-size: 16px;
+          font-weight: bold; }
+        .mypage_wrap .mypage_profile .mypage_profile_status span.mypage_profile_status_txt {
+          font-size: 11px; }
+  .mypage_wrap .profile_edit a {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 4px;
+    background: #575757;
+    font-size: 12px;
+    color: #fff;
+    text-align: center; }
+  .mypage_wrap .profile_edit .user_btn_area {
+    padding-top: 10px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .mypage_wrap .profile_edit .user_btn_area .message_link_btn {
+      margin-left: 10px;
+      background: none;
+      border: 1px solid #575757;
+      color: #575757;
+      border-radius: 4px;
+      padding: 8px 0;
+      width: 93px;
+      text-align: center;
+      font-size: 12px;
+      font-weight: bold;
+      display: block; }
+  .mypage_wrap .mypage_profile_about {
+    margin: 30px 0 40px;
+    font-size: 12px;
+    line-height: 2; }
+
+.mypage_profile_personal {
+  position: relative; }
+  .mypage_profile_personal .mypage_profile_img img {
+    border-radius: 50%; }
+  .mypage_profile_personal #locked {
+    position: absolute;
+    top: 0;
+    right: -12px;
+    width: 12px; }

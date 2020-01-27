@@ -1,0 +1,27 @@
+#view_id {
+  display: none; }
+
+.my_user_id {
+  display: none; }
+
+.cont .tab div {
+  cursor: default !important; }
+
+.cont .tab a {
+  color: #898989;
+  /* 751 */ }
+  @media all and (min-width: 751px) {
+    .cont .tab a:hover {
+      color: #000000; } }
+
+.cont .follow_btn:hover {
+  /* 751 */ }
+  @media all and (min-width: 751px) {
+    .cont .follow_btn:hover {
+      opacity: 0.7; } }
+
+.user_follow .user a {
+  /* 751 */ }
+  @media all and (min-width: 751px) {
+    .user_follow .user a:hover {
+      color: #F2784A; } }

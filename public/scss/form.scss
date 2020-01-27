@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+@import 'mixin';
+
+.auth_ttl{
+  font-size: 18px;
+  font-weight: bold;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont form{
+  padding: 50px 24px 50px;
+  margin: 0 auto;
+  max-width: 327px;
+  .select_box{
+    position: relative;
+    margin: 0 auto;
+    select {
+      width: 100%;
+      padding: 17px;
+      box-sizing: border-box;
+      border-radius: 3px;
+      border: 1px solid #C7C7C7;
+      margin: 0 auto 15px;
+      font-size: 13px;
+      display: block;
+      background-color: #DDDDDD;
+    }
+    &::before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 25px;
+      right: 12px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10.4px 6px 0 6px;
+      border-color: #a2a2a2 transparent transparent transparent;
+    }
+  }
+  input{
+    width: 100%;
+    padding: 17px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #C7C7C7;
+    margin: 0 auto 15px;
+    font-size: 13px;
+    display: block;
+    background-color: #DDDDDD;
+  }
+
+  .common_btn{
+    margin: 20px auto 28px;
+    background-color: #F2784A;
+    font-size: 16px;
+    padding: 0;
+    border: none;
+    max-width: inherit;
+  }
+  textarea{
+    width: 100%;
+    padding: 17px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #C7C7C7;
+    margin: 0 auto 15px;
+    font-size: 13px;
+    display: block;
+    background-color: #DDDDDD;
+  }
+  .input_name{
+    margin: 0 auto;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+}
+
+#login{
+  background-color: #F4F4F4;
+  .auth_ttl{
+    background-image: url(../img/login.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .cont{
+    padding-top: 53px;
+  }
+  .no_login{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #2183D6;
+    margin: 0 auto;
+    a:first-child{
+      color: $black;
+    }
+  }
+  .logout{
+    display: none;
+  }
+  .sns_login{
+    max-width: 326px;
+    margin: 0 auto;
+    padding-top: 15px;
+    border-top: 1px solid #D9D9D9;
+    p{
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    a{
+      font-size: 13px;
+      width: 153px;
+      height: 33px;
+      line-height: 33px;
+      border-radius: 17px;
+      display: inline-block;
+      text-align: center;
+      color: $white;
+    }
+    .facebook{
+      background: #425A94;
+    }
+    .twitter{
+      background: #4AA0EB;
+    }
+    .sns_login_btn{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+#welcome{
+  background-color: #F4F4F4;
+  .auth_ttl{
+    background-image: url(../img/welcome.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .cont{
+    padding-top: 53px;
+  }
+  .no_login{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #2183D6;
+    margin: 0 auto 50px;
+    a:first-child{
+      color: $black;
+    }
+  }
+  .logout{
+    display: none;
+  }
+}
+
+#resetpassword{
+  background-color: #F4F4F4;
+  .auth_ttl{
+    background-image: url(../img/resetpassword.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .cont{
+    padding-top: 53px;
+  }
+  .no_login{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #2183D6;
+    margin: 0 auto 50px;
+  }
+  .logout{
+    display: none;
+  }
+  .attention{
+    font-size: 13px;
+    color: #A2A2A2;
+    margin: 0 auto 50px;
+    line-height: 1.846;
+  }
+}
+
+#edit{
+  background-color: #F4F4F4;
+  .user_icon{
+    text-align: center;
+    position: relative;
+    &::after{
+      content: '編集';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      border-radius: 50%;
+      transform: translate(-50%,-50%);
+      background: rgba(0,0,0,0.5);
+      color: $white;
+      font-size: 12px;
+    }
+    img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  }
+  .auth_ttl{
+    background-image: url(../img/resetpassword.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .cont{
+    padding-top: 53px;
+  }
+  .no_login{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #2183D6;
+    margin: 0 auto 50px;
+  }
+  .logout{
+    display: none;
+  }
+  .attention{
+    font-size: 13px;
+    color: #A2A2A2;
+    margin: 0 auto 50px;
+    line-height: 1.846;
+  }
+  .cont form {
+    padding-top: 20px;
+    max-width: 350px;
+    input,textarea,.select_box select{
+      margin-bottom: 30px;
+    }
+    .public_btn{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-bottom: 20px;
+      .input_name{
+        padding: 0;
+        margin: 0;
+        width: auto;
+        padding-right: 15px;
+      }
+      input{
+        margin: 0;
+        width: auto;
+      }
+      .label--checkbox {
+        position: relative;
+        line-height: 135%;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+      }
+      .checkbox {
+        position: relative;
+        cursor: pointer;
+        &:before {
+          transition: (all .3s ease-in-out);
+          content: "";
+          position: absolute;
+          left: 0;
+          z-index: 1;
+          width: 1rem;
+          height: 1rem;
+          border: 2px solid #f2f2f2;
+        }
+        &:checked {
+          &:before {
+            transform: (rotate(-45deg));
+            height: .5rem;
+            border-color: $bg_orange;
+            border-top-style: none;
+            border-right-style: none;
+          }
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          top: rem(-2);
+          left: 0;
+          width: 1.1rem;
+          height: 1.1rem;
+          background: #DDDDDD;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .common_btn{
+    background: #A2A2A2;
+    margin-top: 67px;
+  }
+}

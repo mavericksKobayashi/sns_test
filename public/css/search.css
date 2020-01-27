@@ -1,0 +1,77 @@
+#search {
+  /* 751 */ }
+  @media all and (min-width: 751px) {
+    #search {
+      background: #F8F8F8; } }
+  #search .inner {
+    /* 751 */ }
+    @media all and (min-width: 751px) {
+      #search .inner {
+        max-width: 1000px;
+        margin: 0 auto; } }
+  #search .search_box {
+    padding: 15px 0;
+    background: #EFEFEF; }
+    #search .search_box .inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      width: calc( 100% - 30px); }
+      #search .search_box .inner form {
+        width: calc(100% - 80px); }
+      #search .search_box .inner input {
+        width: 100%;
+        outline: none;
+        border: 1px solid #C7C7C7;
+        border-radius: 4px;
+        padding: 5px 20px;
+        background: #DDD;
+        color: #000;
+        font-size: 1em; }
+      #search .search_box .inner p {
+        margin-left: 20px; }
+        #search .search_box .inner p a {
+          width: 60px;
+          font-size: 12px;
+          color: #000;
+          text-decoration: none; }
+  #search .search_tab {
+    background: #E0E0E0; }
+    #search .search_tab .inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      width: calc( 100% - 30px); }
+    #search .search_tab ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 15px 0; }
+      #search .search_tab ul li {
+        margin-right: 15px; }
+        #search .search_tab ul li.active a {
+          color: #000;
+          font-weight: bold; }
+        #search .search_tab ul li a {
+          font-size: 12px;
+          color: #A2A2A2; }
+    #search .search_tab .serach_num {
+      font-size: 12px;
+      color: #000;
+      font-weight: bold; }

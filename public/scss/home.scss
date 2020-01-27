@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@import 'mixin';
+
+#home{
+  @include mediaPC{
+    background: #F8F8F8;
+  }
+}
+.home_tab {
+  background: #EFEFEF;
+  .inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-x: scroll;
+  }
+  ul {
+    display: flex;
+    width: 120%;
+    li {
+      a {
+        display: block;
+        padding: 10px;
+        font-size: 13px;
+        color: #000;
+      }
+    }
+  }
+}

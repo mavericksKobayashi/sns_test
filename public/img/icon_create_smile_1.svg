@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.334" height="72.334" viewBox="0 0 41.334 72.334">
+  <g id="グループ_718" data-name="グループ 718" transform="translate(1580 -3078)">
+    <text id="_1.0" data-name="1.0" transform="translate(-1577 3100)" fill="#f2784a" font-size="24" font-family="Asap-Bold, Asap" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">1.0</tspan></text>
+    <g id="グループ_697" data-name="グループ 697" transform="translate(-1621.3 3061.758)">
+      <circle id="楕円形_15" data-name="楕円形 15" cx="20.667" cy="20.667" r="20.667" transform="translate(41.3 47.242)" fill="#f2784a"/>
+      <g id="グループ_696" data-name="グループ 696">
+        <ellipse id="楕円形_16" data-name="楕円形 16" cx="3.502" cy="1.618" rx="3.502" ry="1.618" transform="translate(51.255 64)" fill="#fff"/>
+        <ellipse id="楕円形_17" data-name="楕円形 17" cx="3.502" cy="1.396" rx="3.502" ry="1.396" transform="translate(63.819 63.399) rotate(-9.233)" fill="#fff"/>
+        <path id="パス_451" data-name="パス 451" d="M57.859,77.961a1,1,0,0,1-.413-1.911L60.3,74.757a8.2,8.2,0,0,1,5.2-.516l1.662.384a1,1,0,1,1-.451,1.949l-1.662-.385a6.175,6.175,0,0,0-3.927.39l-2.854,1.293A.99.99,0,0,1,57.859,77.961Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

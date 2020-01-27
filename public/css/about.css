@@ -1,0 +1,211 @@
+@charset "UTF-8";
+#about {
+  /* 751 */ }
+  #about .content {
+    padding-bottom: 30px; }
+  #about .mv {
+    position: relative; }
+    #about .mv img {
+      height: 378px; }
+    #about .mv .mv_text {
+      position: absolute;
+      width: auto;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end; }
+      #about .mv .mv_text .ttl {
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 1.15;
+        color: #ffffff;
+        padding: 0 0 90px 12px; }
+        #about .mv .mv_text .ttl span {
+          font-size: 52px; }
+        #about .mv .mv_text .ttl span:first-child {
+          font-size: 32px;
+          font-family: 'Porter';
+          font-weight: 500;
+          padding-bottom: 5px;
+          display: inline-block; }
+        #about .mv .mv_text .ttl span:nth-child(2) {
+          font-size: 20px;
+          font-family: 'Porter';
+          font-weight: 500; }
+  #about .about_box ul {
+    -webkit-box-shadow: 0 0 18px rgba(34, 34, 34, 0.16);
+    box-shadow: 0 0 18px rgba(34, 34, 34, 0.16);
+    /* 751 */ }
+    @media all and (max-width: 750px) {
+      #about .about_box ul {
+        width: calc( 100% - 24px);
+        margin: 0 auto; } }
+    @media all and (max-width: 750px) {
+      #about .about_box ul {
+        margin: -60px auto 0; } }
+    @media all and (min-width: 751px) {
+      #about .about_box ul {
+        margin: 0 auto; } }
+  #about .about_box li {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 20px 0 20px 47px;
+    border-top: 1px solid #D9D9D9;
+    position: relative;
+    background: #ffffff;
+    z-index: 1; }
+    #about .about_box li:first-child {
+      border-top: 4px solid #7CD09F; }
+    #about .about_box li::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 17px;
+      top: 23px;
+      width: 18.67px;
+      height: 14px;
+      background: url(../img/check-duotone.svg) no-repeat;
+      background-size: 100%; }
+  #about .step {
+    padding-top: 107px;
+    position: relative; }
+    #about .step::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 27.5px;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+      width: 16.03px;
+      height: 59.65px;
+      background: url(../img/arrow_about.png) no-repeat;
+      background-size: 100%; }
+    #about .step::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 42.8px;
+      right: 0;
+      width: 164.03px;
+      height: 255.34px;
+      background: url(../img/step_character.png) no-repeat;
+      background-size: 100%; }
+    @media all and (max-width: 750px) {
+      #about .step .inner {
+        width: calc( 100% - 24px);
+        margin: 0 auto; } }
+    #about .step .top {
+      background: #F2784A;
+      margin-bottom: 64px; }
+      #about .step .top .ttl {
+        font-size: 26px;
+        font-weight: bold;
+        color: #ffffff;
+        padding: 26px 0; }
+        #about .step .top .ttl span:first-child {
+          font-size: 42px;
+          font-family: 'Porter';
+          display: inline-block;
+          padding-bottom: 11px;
+          font-weight: 500; }
+        #about .step .top .ttl span:nth-child(2) {
+          font-family: 'Porter';
+          font-weight: 500; }
+        #about .step .top .ttl span:nth-child(4) {
+          font-size: 32px; }
+    #about .step .step_box {
+      padding-bottom: 40px; }
+    #about .step .step_num {
+      color: #F2784A;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+    #about .step .step_ttl {
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 0 25px; }
+    #about .step .step_txt {
+      font-size: 13px;
+      line-height: 1.846; }
+    #about .step .img_area_1 {
+      margin-top: 20px; }
+    #about .step .img_area_2 {
+      margin-top: 30px; }
+    #about .step .img_area_3 {
+      margin-top: 12px; }
+    #about .step .new_btn {
+      text-align: center; }
+      #about .step .new_btn a {
+        width: 245px;
+        margin: 10px auto 30px;
+        padding: 14px 0;
+        background: #F2784A;
+        border-radius: 46px;
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        color: #ffffff; }
+        @media all and (max-width: 750px) {
+          #about .step .new_btn a {
+            -webkit-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15); } }
+    #about .step .attention {
+      color: #A2A2A2;
+      font-size: 12px;
+      line-height: 2; }
+  @media all and (min-width: 751px) {
+    #about {
+      background: #F8F8F8; }
+      #about .mv img {
+        height: 358px; }
+      #about .mv .mv_text .ttl {
+        padding-bottom: 65px; }
+      #about .mv .mv_text .ttl span {
+        font-size: 80px; }
+        #about .mv .mv_text .ttl span:first-child {
+          font-size: 49px; }
+        #about .mv .mv_text .ttl span:nth-child(2) {
+          font-size: 31px; }
+      #about .content {
+        padding: 60px 0 80px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+        width: calc( 100% - 30px); }
+      #about .main {
+        width: 71%; }
+      #about .step::after {
+        right: 45px; }
+      #about .step .top {
+        border-radius: 4px; }
+        #about .step .top .ttl {
+          padding-left: 30px; }
+      #about .step .step_ttl, #about .step .step_num {
+        font-size: 20px; }
+      #about .step .step_txt {
+        font-size: 14px; }
+      #about .step .inner {
+        width: 100%; }
+      #about .step .attention {
+        text-align: center; }
+      #about .step .step_box {
+        padding-bottom: 50px; }
+      #about .about_box ul {
+        margin-top: 0;
+        width: 100%; } }
+  @media screen and (min-width: 1001px) {
+    #about .mv .mv_text {
+      left: calc( (100% - 1000px) / 2);
+      padding-left: 0; } }

@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+@import 'mixin';
+
+#search {
+  @include mediaPC{
+    background: #F8F8F8;
+  }
+  .inner {
+    @include mediaPC {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  }
+  .search_box {
+    padding: 15px 0;
+    background: #EFEFEF;
+    .inner {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      @include inner;
+      form{
+        width: calc(100% - 80px);
+      }
+      input {
+        width: 100%;
+        outline: none;
+        border: 1px solid #C7C7C7;
+        border-radius: 4px;
+        padding: 5px 20px;
+        background: #DDD;
+        color: #000;
+        font-size: 1em;
+      }
+      p {
+        margin-left: 20px;
+        a {
+          width: 60px;
+          font-size: 12px;
+          color: #000;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .search_tab {
+    background: #E0E0E0;
+    .inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @include inner;
+    }
+    ul {
+      display: flex;
+      padding: 15px 0;
+      li {
+        margin-right: 15px;
+        &.active a {
+          color: #000;
+          font-weight: bold;
+        }
+        a {
+          font-size: 12px;
+          color: #A2A2A2;
+        }
+      }
+    }
+    .serach_num {
+      font-size: 12px;
+      color: #000;
+      font-weight: bold;
+    }
+  }
+}

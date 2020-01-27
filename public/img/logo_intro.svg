@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="203" height="102" viewBox="0 0 203 102">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 334 104">
+      <image width="334" height="104" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAU4AAABoCAYAAACe0Rn2AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEfElEQVR4nO3d71HbSBjA4d2bfE7SAXQQOoBUEK4CKIFUkFDBUQI0cEcqOKjgnAoOOiC5At4bGUGwhT2s/0is/TyfMnIGVk74sbKkVU4pfU2swlVEXK3iC+Wcj1NKu50X1igi/D+4f+8PUkoHnRfW6zwibjZ03/rw8HN308f72GjCGZ2tLOJ0VfHJOTf/EfY7L6xRRGT/6uP3vvk3/NJ5Yb0+ruqX7jwD7dsQrtuYXkbEaB3f/7fOFoC67be/IP7JOd80vzByzis9ghNOYJPttBH9N+d8vqqACiewLY7agDYz0PfL7LNwAtummYGOcs57i+63cALbaKf9DPRkkX0XTmCb/dF89lm6/8IJbLuj5hLAks89hRPg/hKmy5e+D8IJcG//pYftwgnwy1F7h9Vcwgkw6Ut7X/9MwgnQ9W3eySLhBOh626xa1dnaEk6A532adcj+prOlB5Ywg62x9JJ5OefDlNJJ30stts5SSp1bM804gVctIpp1NZuZ38UA4/zQLiw+QTiBKkTE8UDx7NzPLpxANdp4fu95vB+mP+sUTqA2nRlgDyYO14UTqEp7sum65zEfPb2uUziBGp0NMObDhz8IJ1Cd5kx7Sulnz+N+/JxTOIFa/dXzuM04geq9eP3MFXn38JRM4QRqtdQdSQsaH64LJ1CliLhLKd32PHYzTqB6Nz3vgBknUL3REDsgnEDN7noe+3ilJOEEeLl3STiByg1xZl04AUoJJ0Ah4QRq9uwzgdZNOAFe7kcSTqByM599vibj60aFE6hZ5wmUaza+blQ4gZrt9jx2M06gXu2jLHZ63gHhBKo2xBl14QSqdtjz4G8jYrwak3ACtfq953E/3t4pnEB1cs7NbPNtz+N+fFSHcAI1Oul5zP+ZcQLVyjk3J4X2ex7/n+2jOsaEE6hGewnS+QDjnfiewgnU5GyAazevI2Ji3U/hBKqQc25mfUcDjPVsesObzl8BeCXaQ/OD9mRQ359rpna2eTm9cZBw5pyjs/F1+Tg9NQcW8nfOueZ37mtni0N1gJkuZk2ghBOg6+e8a0WFE6Dr09PrNqcJJ8Ckz7MO0R8IJ8AvzeeancuPpgknwL0mmscveS+EE6Agmkk4AcqimYQT2HKfS6OZ3HIJbKnvKaXjiBgtsvtmnMA2aRYkPo2IvUWjmcw4gS1y0dx7/vDAtWUIJ7DJbttl4c7n3QlUSjiBTfKjffZ5sxTc1TKH4/MMFc7TzpbXZempPDB2seafp6e3Ro5WOaucZ5BwRsSza9wBG+d8E9e2dVYdoJBwAhQSToBCwglQSDgBCgknQCHhBCgknACFhBOgkHACFBJOgELCCVBIOAEKCSdAIeEEKCScAIWEE6CQcAIUEk6AQsIJUMjjgRnLOccGvhPXEXHQ2QpLMuMEKCScAIWEE6CQcAIUEk6AQsIJUEg4AQoJJ0Ah4QQoJJwAhYQToJBwAhQSToBCwglQKKeUel92KyKuOht5lHPeSym9944s7S4iRiVfJOe8m1La7bywXqOIuFv3N9nkfetVSul/KGL/BZEKkh0AAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <g id="グループ_450" data-name="グループ 450" transform="translate(-86 -90)">
+    <g id="グループ_178" data-name="グループ 178" transform="translate(0 -10)">
+      <text id="旅するSNS" transform="translate(200 129)" font-size="24" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700" letter-spacing="0.43em"><tspan x="-80.111" y="0">旅する</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI">SNS</tspan></text>
+      <text id="_" data-name="#" transform="translate(97 131)" font-size="31" font-family="Quicksand-Regular, Quicksand"><tspan x="-10.137" y="0">#</tspan></text>
+    </g>
+    <rect id="logo" width="203" height="63" transform="translate(86 129)" fill="url(#pattern)"/>
+  </g>
+</svg>
