@@ -4,6 +4,7 @@
 
 </head>
 
+
 <body id="top" class="top_page">
   @include('components.menu')
   <div class="mv">
